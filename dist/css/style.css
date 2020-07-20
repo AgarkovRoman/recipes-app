@@ -128,8 +128,7 @@ body {
   text-transform: uppercase;
   margin-bottom: 2.5rem;
   text-align: center;
-  transform: skewY(-3deg); }
-
+}
 .copyright {
   color: #968B87;
   font-size: 1.2rem;
@@ -399,7 +398,7 @@ body {
       top: 0;
       left: 0;
       background-image: linear-gradient(to right bottom, #FBDB89, #F48982);
-      opacity: .6; }
+      opacity: .3; }
   .recipe__img {
     width: 100%;
     display: block;
