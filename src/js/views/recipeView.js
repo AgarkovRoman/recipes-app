@@ -21,7 +21,7 @@ const formatCount = count => {
             return `${int} ${fr.numerator}/${fr.denominator}`;
         }
     }
-    return '?'
+    return '?';
 };
 
 const createIngredient = ingredient => `
@@ -84,8 +84,8 @@ export const renderRecipe = recipe => {
             <div class="recipe__ingredients">
                 <ul class="recipe__ingredient-list">
                     ${recipe.ingredients.map(el => createIngredient(el)).join('')}
-
-                <button class="btn-small recipe__btn">
+                </ul>
+                <button class="btn-small recipe__btn recipe__btn--add">
                     <svg class="search__icon">
                         <use href="img/icons.svg#icon-shopping-cart"></use>
                     </svg>
